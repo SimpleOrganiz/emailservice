@@ -1,0 +1,7 @@
+{
+  "name": "emailService",
+  "short_name": "emailService",
+  "description": "Simple email application.",
+  "start_url": "/",
+  "display": "standalone"
+}
