@@ -4,36 +4,36 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
 
-    <title>email-service test</title>
+    <title>email-web-app test</title>
 
     <script src="../../../webcomponentsjs/webcomponents-lite.js"></script>
     <script src="../../../web-component-tester/browser.js"></script>
 
-    <link rel="import" href="../../src/email-service/email-service.html">
+    <link rel="import" href="../../src/email-web-app/email-web-app.html">
   </head>
   <body>
 
     <test-fixture id="BasicTestFixture">
       <template>
-        <email-service></email-service>
+        <email-web-app></email-web-app>
       </template>
     </test-fixture>
 
     <test-fixture id="ChangedPropertyTestFixture">
       <template>
-        <email-service prop1="new-prop1"></email-service>
+        <email-web-app prop1="new-prop1"></email-web-app>
       </template>
     </test-fixture>
 
     <script>
-      suite('email-service', function() {
+      suite('email-web-app', function() {
 
         test('instantiating the element with default properties works', function() {
           var element = fixture('BasicTestFixture');
-          assert.equal(element.prop1, 'email-service');
+          assert.equal(element.prop1, 'email-web-app');
           var elementShadowRoot = element.shadowRoot;
           var elementHeader = elementShadowRoot.querySelector('h2');
-          assert.equal(elementHeader.innerHTML, 'Hello email-service!');
+          assert.equal(elementHeader.innerHTML, 'Hello email-web-app!');
         });
 
         test('setting a property on the element works', function() {

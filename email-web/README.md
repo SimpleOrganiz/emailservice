@@ -1,6 +1,6 @@
-# \<emailService\>
+# \<email-web\>
 
-Simple email application.
+
 
 ## Install the Polymer-CLI
 

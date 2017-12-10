@@ -1,6 +1,5 @@
 {
-  "name": "emailService",
-  "description": "Simple email application.",
+  "name": "email-web",
   "main": "index.html",
   "dependencies": {
     "polymer": "Polymer/polymer#^2.0.0"
