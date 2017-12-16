@@ -1,11 +1,19 @@
 {
   "name": "email-web",
+  "authors": [
+    "Kamil Gawęda", "Dominik Bartoszcze"
+  ],
   "main": "index.html",
   "dependencies": {
-    "polymer": "Polymer/polymer#^2.0.0"
+    "polymer": "Polymer/polymer#^2.0.0",
+    "bootstrap": "https://github.com/twbs/bootstrap.git",
+    "email-web-app": "https://github.com/SimpleOrganiz/emailservice/tree/master/email-web/src/email-web-app.git#65b266246564f40e6306dd837d10649b42a9d0b4"
   },
   "devDependencies": {
     "web-component-tester": "Polymer/web-component-tester#^6.0.0",
     "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0"
+  },
+  "resolutions": {
+    "polymer": "^2.0.0"
   }
 }
