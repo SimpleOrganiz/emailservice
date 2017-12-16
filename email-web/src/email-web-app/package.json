@@ -1,0 +1,25 @@
+{
+    "artifactId": "email-web-app",
+    "name": "email-web-app",
+    "description": "email-web-app",
+    "version": "0.0.0",
+    "dependencies": {},
+    "scripts": {
+      "serve": "polymer serve",
+      "doc": "polymer analyze > analysis.json",
+      "dev": "polymer serve --port 8081 & npm run watch",
+      "watch": "browser-sync start --proxy localhost:8081 --startPath /components/email-web-app --files '*.html, demo/*.html'"
+    },
+    "devDependencies": {
+      "browser-sync": "^2.18.13",
+      "gulp": "^3.9.1",
+      "gulp-bump": "^2.4.0",
+      "gulp-filter": "^4.0.0",
+      "gulp-sequence": "^0.4.6",
+      "gulp-svn": "^1.0.6"
+    },
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "svnDependencies": {}
+  }
